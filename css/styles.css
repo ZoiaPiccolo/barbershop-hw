@@ -1,0 +1,68 @@
+:root {
+    --main-font-family: Open Sans sans serif;
+    --title-font-family: Raleway sans serif;
+    --main-text-color: #555555;
+    --scd-main-color: #9DA4BD;
+    --accent-main-color: #FFFFFF;
+    --accent-scd-color: #FF6C00;
+    --opacity-color: rgba(157, 164, 189, 0.6);
+    --title-color: #303030;
+    --bgd-color: #191C26;
+}
+
+body {
+    font-family: var(--main-font-family);
+    font-size: 400;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--accent-scd-color);
+}
+
+
+.nav-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    background-color: var(--bgd-color);
+    color: var(--accent-main-color);
+}
+
+.phone {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    background-color: var(--bgd-color);
+    color: var(--accent-main-color);
+}
+
+.prime-btn,
+.scd-btn {
+    font-family: var(--main-font-family);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.09em;
+    background-color: var(--bgd-color);
+    color: var(--accent-main-color);
+}
+
+button:hover,
+button:focus {
+    color: var(--accent-scd-color);
+}
+
+.link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.3;
+    color: var(--title-color);
+}
